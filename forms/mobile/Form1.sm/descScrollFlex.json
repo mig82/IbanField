@@ -1,11 +1,9 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_children_": [],
-    "_height_": {
+    "_bottom_": {
         "type": "string",
-        "value": "50dp"
+        "value": "150dp"
     },
     "_margin_": [
         0,
@@ -13,7 +11,7 @@
         0,
         0
     ],
-    "_orientation_": 1,
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
@@ -21,43 +19,52 @@
         0
     ],
     "_percent_": true,
-    "_render_": true,
-    "_skin_": "sd162a646e6c48b78416d0237d4bc0d4",
+    "_skin_": "s86ced1736044ff3bc576e8c5360a268",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "90dp"
     },
     "_width_": {
         "type": "string",
         "value": "90%"
     },
-    "autogrowmode": 0,
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50.00%"
+        "value": "50%"
     },
+    "children": [
+        "fieldCommentsRichText"
+    ],
     "clipbounds": true,
-    "containerweight": 0,
-    "data": {},
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
     "enablescrolling": true,
-    "id": "accountField1",
+    "horizontalscrollindicator": true,
+    "id": "descScrollFlex",
     "info": null,
     "iscustomlayout": false,
-    "issegmentchild": false,
     "isvisible": true,
-    "kuid": "c01d671b19034ac68eb0d1fd5534e591",
+    "kuid": "ga4e947b610f4afb91fa2a15e36d8801",
     "layouttype": 2,
-    "masterType": 1,
-    "name": "kony.ui.UserWidgetInstance",
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
     "parent": "Form1",
     "pf": "Form1",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
+    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "sourceUserWidget": "f502f0a840ce4743bc74a7873fdd6fcf",
-    "wType": "UserWidgetInstance",
+    "track": false,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
     "zindex": 1
 }

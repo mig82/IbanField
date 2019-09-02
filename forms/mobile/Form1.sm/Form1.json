@@ -30,7 +30,11 @@
     },
     "canUpdateUI": true,
     "children": [
-        "accountField1"
+        "accountField1",
+        "descScrollFlex",
+        "testAccount1Button",
+        "testAccount2Button",
+        "sampleAccountsLabel"
     ],
     "containerweight": 100,
     "controllerInfo": {
