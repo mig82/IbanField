@@ -6,12 +6,41 @@
             "passthrough": []
         },
         "events": {
-            "custom": [],
+            "custom": [
+                {
+                    "group": "Events",
+                    "kuid": "f05a145245f3445dbec854c98e4d0759",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onValidIban",
+                    "pw": {
+                        "displayName": "onValidIban",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f502f0a840ce4743bc74a7873fdd6fcf",
+                    "type": "event"
+                },
+                {
+                    "group": "Events",
+                    "kuid": "h66a851b42b248dc8c631ab3b8b352f3",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "onInvalidIban",
+                    "pw": {
+                        "displayName": "onInvalidIban",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f502f0a840ce4743bc74a7873fdd6fcf",
+                    "type": "event"
+                }
+            ],
             "passthrough": []
         },
         "groups": {
             "apis": [],
-            "events": [],
+            "events": [
+                "Events"
+            ],
             "properties": [],
             "widgets": []
         },

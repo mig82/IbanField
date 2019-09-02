@@ -29,7 +29,9 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "accountField1"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
