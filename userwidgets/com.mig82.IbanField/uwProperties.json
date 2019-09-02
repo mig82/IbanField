@@ -2,7 +2,20 @@
     "classname": "IbanField",
     "definitions": {
         "apis": {
-            "custom": [],
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fefb172b4b2d4ec0870e94537c93d89a",
+                    "paramList": [],
+                    "propertyKey": "validateIban",
+                    "pw": {
+                        "displayName": "validateIban",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f502f0a840ce4743bc74a7873fdd6fcf",
+                    "type": "event"
+                }
+            ],
             "passthrough": []
         },
         "events": {
@@ -37,7 +50,9 @@
             "passthrough": []
         },
         "groups": {
-            "apis": [],
+            "apis": [
+                "General"
+            ],
             "events": [
                 "Events"
             ],

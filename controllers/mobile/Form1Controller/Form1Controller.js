@@ -2,15 +2,16 @@ define(function(){
 	return {
 		assignIbanComponentEvents: function(){
 			this.view.accountField1.onValidIban = (iban)=>{
-				kony.print(`${iban} is a valid IBAN`);
+				kony.print(`Account ${iban} is a valid IBAN`);
 			};
 			this.view.accountField1.onInvalidIban = (iban)=>{
-				kony.print(`${iban} is NOT a valid IBAN`);
+				kony.print(`Account ${iban} is NOT a valid IBAN`);
 			};
 		},
 
 		setTestValue: function(value){
 			this.view.accountField1.value = value;
+			this.view.accountField1.validateIban();
 		},
 
 		bindTestButtons: function(){

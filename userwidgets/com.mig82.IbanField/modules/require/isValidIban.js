@@ -22,7 +22,7 @@ define(function () {
 		}
 		var reversed = iban.substr(4) + iban.substr(0,4);
 		//kony.print("IBAN: %s".debug, iban);
-		kony.print("IBAN: %s\n      %s", iban, reversed);
+		kony.print(`IBAN: ${iban}\n      ${reversed}`);
 
 		var s = "";
 		for (var i=0; i < len; i+=1){
