@@ -15,7 +15,20 @@ define(["./isValidIban"], function(isValidIban) {
 			}
 		},
 
-		preShow: function(){},
+		toggleIcon: function(){
+			if(!this.view.iconLabel.text){
+				this.view.iconLabel.isVisible = false;
+				this.view.ibanTextBox.left = "0dp";
+			}
+			else{
+				this.view.iconLabel.isVisible = true;
+				this.view.ibanTextBox.left = "50dp";
+			}
+		},
+
+		preShow: function(){
+			this.toggleIcon();
+		},
 
 		postShow: function(){
 			this.view.ibanTextBox.onEndEditing = this.validateIban;

@@ -31,6 +31,7 @@
     "canUpdateUI": true,
     "children": [
         "accountField1",
+        "accountField2",
         "descScrollFlex",
         "testAccount1Button",
         "testAccount2Button",
