@@ -25,7 +25,7 @@
     "_skin_": "sd162a646e6c48b78416d0237d4bc0d4",
     "_top_": {
         "type": "string",
-        "value": "70dp"
+        "value": "73dp"
     },
     "_width_": {
         "type": "string",
@@ -35,16 +35,19 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "49.96%"
     },
     "clipbounds": true,
     "containerweight": 0,
     "data": {
+        "containerSkin": "s3b2075ecd9d4faf84b423263c14d33b",
         "contentAlignment": {
-            "Default": 4
+            "Default": 5
         },
         "icon": "",
-        "placeholder": "GBXX YYYY 1000 2000 3000 40"
+        "iconSkin": "sab1f8e36c03434c90701b15ae343e9b",
+        "placeholder": "GBXX YYYY 1000 2000 3000 40",
+        "placeholderSkin": "s6588aeaaef04c028b884e35b93d90c7"
     },
     "enablescrolling": true,
     "id": "accountField2",
@@ -52,7 +55,7 @@
     "iscustomlayout": false,
     "issegmentchild": false,
     "isvisible": true,
-    "kuid": "abfefcca3ce34c5c88f705fa27002ccf",
+    "kuid": "e79e34233e9a4208be4a8ab9723e3556",
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
