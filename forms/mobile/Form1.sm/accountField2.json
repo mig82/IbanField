@@ -40,7 +40,11 @@
     "clipbounds": true,
     "containerweight": 0,
     "data": {
-        "icon": ""
+        "contentAlignment": {
+            "Default": 4
+        },
+        "icon": "",
+        "placeholder": "GBXX YYYY 1000 2000 3000 40"
     },
     "enablescrolling": true,
     "id": "accountField2",
