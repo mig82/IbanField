@@ -8,7 +8,11 @@
     },
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "0"
     },
     "_margin_": [
         6,
@@ -22,15 +26,11 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "number",
-        "value": "0"
-    },
     "_skin_": "s6467c1dd3844f6c90b06a9b5e3429e8",
-    "_text_": "Test Account 2",
+    "_text_": "GB86 UBKL 1234 5698 7654 32",
     "_width_": {
         "type": "string",
-        "value": "49%"
+        "value": "100%"
     },
     "canUpdateUI": true,
     "containerweight": 100,

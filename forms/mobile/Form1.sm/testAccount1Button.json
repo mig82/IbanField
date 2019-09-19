@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "number",
-        "value": "0"
+        "value": "32"
     },
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
@@ -27,10 +27,10 @@
         0
     ],
     "_skin_": "s6467c1dd3844f6c90b06a9b5e3429e8",
-    "_text_": "Test Account 1",
+    "_text_": "ES26 4141 5000 3000 1210 2699",
     "_width_": {
         "type": "string",
-        "value": "49%"
+        "value": "100%"
     },
     "canUpdateUI": true,
     "containerweight": 100,

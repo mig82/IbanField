@@ -34,8 +34,7 @@
         "accountField2",
         "descScrollFlex",
         "testAccount1Button",
-        "testAccount2Button",
-        "sampleAccountsLabel"
+        "testAccount2Button"
     ],
     "containerweight": 100,
     "controllerInfo": {

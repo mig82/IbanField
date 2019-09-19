@@ -1,17 +1,23 @@
 define(function(){
+	const acctFields = ["accountField1", "accountField2"];
+
 	return {
 		assignIbanComponentEvents: function(){
-			this.view.accountField1.onValidIban = (iban)=>{
-				kony.print(`Account ${iban} is a valid IBAN`);
-			};
-			this.view.accountField1.onInvalidIban = (iban)=>{
-				kony.print(`Account ${iban} is NOT a valid IBAN`);
-			};
+			acctFields.forEach((field) => {
+				this.view[field].onValidIban = (iban)=>{
+					kony.print(`Account ${iban} is a valid IBAN`);
+				};
+				this.view[field].onInvalidIban = (iban)=>{
+					kony.print(`Account ${iban} is NOT a valid IBAN`);
+				};
+			});
 		},
 
 		setTestValue: function(value){
-			this.view.accountField1.value = value;
-			this.view.accountField1.validateIban();
+			acctFields.forEach((field) => {
+				this.view[field].value = value;
+				this.view[field].validateIban();
+			});
 		},
 
 		bindTestButtons: function(){
