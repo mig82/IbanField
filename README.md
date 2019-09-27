@@ -7,9 +7,18 @@ Component* using *Kony Visualizer*.
 
 Add it to screens where the user is expected to type in an [IBAN](https://en.wikipedia.org/wiki/International_Bank_Account_Number) (International Bank Account Number) in order to execute a bank transfer.
 
-![Iban Field](/pics/IbanField_pic1.png "Iban Field")
+![Iban Field](/pics/IbanField1.png "Iban Field 1")
+
+![Iban Field](/pics/IbanField2.png "Iban Field 2")
+
+It supports IBAN validation for any of the following countries:
+NO, BE, DK, FI, FO, GL, NL, MK, SI, AT, BA, EE, KZ, LT, LU, CR, CH, HR, LI, LV, BG, BH, DE, GB, GE, IE, ME, RS, AE, GI, IL, AD, CZ, ES, MD, PK, RO, SA, SE, SK, VG, TN, PT, IS, TR, FR, GR, IT, MC, MR, SM, AL, AZ, CY, DO, GT, HU, LB, PL, BR, PS, KW, MU, MT.
 
 ## Implementation Details
+
+### IBAN Validation
+
+The IBAN validation algorithm is taken from [Rosetta Code](https://rosettacode.org/wiki/IBAN#JavaScript).
 
 ### Visualizer Version
 This project was built using Kony Visualizer Quantum 8.4.22.
