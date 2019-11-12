@@ -21,8 +21,8 @@
         "events": {
             "custom": [
                 {
-                    "group": "Events",
-                    "kuid": "f05a145245f3445dbec854c98e4d0759",
+                    "group": "Validation Events",
+                    "kuid": "be6db7fc9d694b0785bf53f533faeabb",
                     "paramList": [],
                     "propertyIndex": 1,
                     "propertyKey": "onValidIban",
@@ -34,8 +34,8 @@
                     "type": "event"
                 },
                 {
-                    "group": "Events",
-                    "kuid": "h66a851b42b248dc8c631ab3b8b352f3",
+                    "group": "Validation Events",
+                    "kuid": "g3d482f036fb4da7a223410a0428e42d",
                     "paramList": [],
                     "propertyIndex": 2,
                     "propertyKey": "onInvalidIban",
@@ -54,7 +54,7 @@
                 "General"
             ],
             "events": [
-                "Events"
+                "Validation Events"
             ],
             "properties": [
                 "Look & Feel"
