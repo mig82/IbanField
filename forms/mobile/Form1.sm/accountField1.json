@@ -35,7 +35,7 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "49%"
+        "value": "50%"
     },
     "clipbounds": true,
     "containerweight": 0,
@@ -43,7 +43,8 @@
         "containerSkin": "sc0881337e254f61ac8af53bf224bc7d",
         "icon": "",
         "iconSkin": "sab1f8e36c03434c90701b15ae343e9b",
-        "placeholderSkin": "s2aa7a23601b4c7a9c722bfc568cdc58"
+        "placeholderSkin": "s2aa7a23601b4c7a9c722bfc568cdc58",
+        "value": ""
     },
     "enablescrolling": true,
     "id": "accountField1",

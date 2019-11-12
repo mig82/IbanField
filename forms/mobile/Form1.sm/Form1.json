@@ -34,7 +34,9 @@
         "accountField2",
         "descScrollFlex",
         "testAccount1Button",
-        "testAccount2Button"
+        "testAccount2Button",
+        "errorLabel1",
+        "errorLabel2"
     ],
     "containerweight": 100,
     "controllerInfo": {
