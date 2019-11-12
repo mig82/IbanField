@@ -1,4 +1,4 @@
-define(["./isValidIban"], function(isValidIban) {
+define(["./isValidIban", "./splitBySpaces"], function(isValidIban, splitBySpaces) {
 
 	return {
 		validateIban: function(){
@@ -31,7 +31,10 @@ define(["./isValidIban"], function(isValidIban) {
 		},
 
 		postShow: function(){
-			this.view.ibanTextBox.onEndEditing = this.validateIban;
+			this.view.ibanTextBox.onEndEditing = ()=>{
+				this.view.ibanTextBox.text = splitBySpaces(this.view.ibanTextBox.text);
+				this.validateIban();
+			};
 		},
 
 		constructor: function(/*baseConfig, layoutConfig, pspConfig*/) {
