@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se7a642179594bd4b3b7e334ed9cecbb",
+    "_text_": "Try any <a href=\"https://en.wikipedia.org/wiki/Iban\"><em>IBAN </em></a> from any of the following countries:<br>\nNO, BE, DK, FI, FO, GL, NL, MK, SI, AT, BA, EE, KZ, LT, LU, CR, CH, HR, LI, LV, BG, BH, DE, GB, GE, IE, ME, RS, AE, GI, IL, AD, CZ, ES, MD, PK, RO, SA, SE, SK, VG, TN, PT, IS, TR, FR, GR, IT, MC, MR, SM, AL, AZ, CY, DO, GT, HU, LB, PL, BR, PS, KW, MU, MT.\n<br>\nFor example:",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "fieldCommentsRichText",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e1e470f943c94264bcacc986ee6ba78b",
+    "linkskin": "s0a0119d3af14b3c8f10f614a8843eec",
+    "name": "kony.ui.RichText",
+    "parent": "descScrollFlex",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

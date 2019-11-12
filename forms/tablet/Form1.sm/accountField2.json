@@ -1,0 +1,72 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sd162a646e6c48b78416d0237d4bc0d4",
+    "_top_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "containerSkin": "s3b2075ecd9d4faf84b423263c14d33b",
+        "contentAlignment": {
+            "Default": 5
+        },
+        "icon": "",
+        "iconSkin": "sab1f8e36c03434c90701b15ae343e9b",
+        "placeholder": "GBXX YYYY 1000 2000 3000 40",
+        "placeholderSkin": "s6588aeaaef04c028b884e35b93d90c7"
+    },
+    "enablescrolling": true,
+    "id": "accountField2",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "e14af8cab34a4a8289b96a9e751cdcaf",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "Form1",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "f502f0a840ce4743bc74a7873fdd6fcf",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}
